@@ -80,17 +80,23 @@
     color: #f03c8f;
   }
   
-
-  @media (max-width: 700px) {
-    .card {
-      width: 110px;
-      height: 110px;
+ @media (max-width: 700px) {
+    .game {
+      max-width: 400px;
     }
-  }
-
-  @media (max-width: 400px) {
+    
     .card {
       width: 90px;
       height: 90px;
     }
   }
+  
+  @media (max-width: 400px) {
+    .game {
+      max-width: 300px;
+    }
+    
+    .card {
+      width: 70px;
+      height: 70px;
+    }
